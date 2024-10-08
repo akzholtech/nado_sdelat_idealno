@@ -11,6 +11,7 @@ html,
 body {
   margin: 0;
   height: 100%;
+  max-width: 1600px;
 }
 
 body {
@@ -23,7 +24,7 @@ body {
   margin: 0 auto;
   padding-top: 60px;
   font-weight: 800;
-  max-width: 800px;
+  max-width: 739px;
   width: 100%;
   font-size: 116px;
   letter-spacing: 3.5px;
@@ -47,6 +48,7 @@ video {
 
 .header_title::before {
   content: "Надо сделать идеально";
+  text-transform: uppercase;
 }
 
 .header_title:hover::after {
