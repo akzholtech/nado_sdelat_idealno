@@ -11,7 +11,7 @@ html,
 body {
   margin: 0 auto;
   height: 99vh;
-  /* max-width: 1600px; */
+  max-width: 1600px;
 }
 
 body {
@@ -57,7 +57,8 @@ body::after {
 
 .header_title:hover::before {
   content: "На самом деле нет.\AВажнее &mdash; научиться ошибаться.";
-  width: fit-content;
+  max-width: 746px;
+  height: 158px;
   text-transform: initial;
   color: #000;
   text-wrap: wrap;
@@ -66,10 +67,11 @@ body::after {
   font-size: 35px;
   position: absolute;
   top: 20%;
-  left: 50%;
+  left: 51%;
   text-align: start;
   padding: 36px 44px;
   border-radius: 20px;
+  letter-spacing: normal;
   box-shadow: 0 14px 0 #000;
   border: 2px solid #000;
   background: #ffffff;
