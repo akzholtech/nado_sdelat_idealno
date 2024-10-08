@@ -63,7 +63,7 @@ body::after {
   font-weight: 400;
   font-size: 35px;
   position: absolute;
-  top: 30%;
+  bottom: calc(100% - 330px);
   left: calc(100% - 768px);
   text-align: start;
   line-height: 1;
