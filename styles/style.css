@@ -65,7 +65,7 @@ body::after {
   font-size: 35px;
   position: absolute;
   top: 30%;
-  left: calc(100% - 750px);
+  left: calc(100% - 768px);
   text-align: start;
   padding: 36px 44px;
   border-radius: 20px;
