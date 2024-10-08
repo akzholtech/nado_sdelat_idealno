@@ -30,6 +30,7 @@ body {
   letter-spacing: 3.5px;
   text-align: center;
   text-wrap: wrap;
+  text-transform: uppercase;
 }
 
 video {
@@ -44,11 +45,6 @@ video {
 
 .header_title::after {
   content: "*";
-}
-
-.header_title::before {
-  content: "Надо сделать идеально";
-  text-transform: uppercase;
 }
 
 body:hover::after {
