@@ -47,7 +47,7 @@ video {
   content: "*";
 }
 
-body:hover::after {
+.header_title:hover::before {
   content: "На самом деле нет.\AВажнее &mdash; научиться ошибаться.";
   width: fit-content;
   text-wrap: wrap;
