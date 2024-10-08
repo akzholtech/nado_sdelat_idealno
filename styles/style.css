@@ -51,7 +51,7 @@ video {
   text-transform: uppercase;
 }
 
-.header_title:hover::after {
+body:hover::after {
   content: "На самом деле нет.\AВажнее &mdash; научиться ошибаться.";
   width: fit-content;
   text-wrap: wrap;
