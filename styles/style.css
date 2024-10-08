@@ -56,7 +56,6 @@ body::after {
 .header_title:hover::before {
   content: "На самом деле нет.\AВажнее &mdash; научиться ошибаться.";
   max-width: 746px;
-  height: 158px;
   text-transform: initial;
   color: #000;
   text-wrap: wrap;
@@ -67,6 +66,7 @@ body::after {
   top: 30%;
   left: calc(100% - 768px);
   text-align: start;
+  line-height: 1;
   padding: 36px 44px;
   border-radius: 20px;
   letter-spacing: normal;
